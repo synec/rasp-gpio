@@ -1,6 +1,7 @@
 {
   "name": "rasp-gpio",
   "version": "0.0.0",
+  "private": true,
   "main": "lib/rasp-gpio.js",
   "description": "The best module ever.",
   "homepage": "https://github.com/synec/rasp-gpio",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "a": "^0.4.6",
     "browserify": "^4.1.3",
+    "chai": "^1.10.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-contrib-watch": "^0.6.1",
