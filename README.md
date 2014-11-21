@@ -1,4 +1,4 @@
-#  [![Build Status](https://secure.travis-ci.org/synec/rasp-gpio.png?branch=master)](http://travis-ci.org/synec/rasp-gpio)
+#  [![Build Status](https://ci.indivirtuell.net/buildStatus/icon?job=rasp-gpio-build)](http://travis-ci.org/synec/rasp-gpio)
 
 > The best module ever.
 
