@@ -2,8 +2,8 @@
 'use strict';
 
 // var assert = require('assert');
-var expectRequire = require('a').expectRequire;
-var sinon = require('sinon');
+var expectRequire = require('a').expectRequire,
+	sinon = require('sinon');
 
 var fakePiGpio = {
 	open: sinon.stub().callsArgWith(2),
@@ -13,7 +13,7 @@ var fakePiGpio = {
 
 expectRequire('pi-gpio').return(fakePiGpio);
 
-var  raspGpio = require('../lib/rasp-gpio.js');
+var raspGpio = require('../lib/rasp-gpio.js');
 
 describe('rasp-gpio node module.', function() {
   it('should do something', function() {
@@ -23,6 +23,3 @@ describe('rasp-gpio node module.', function() {
     	sinon.assert.called(fakePiGpio.write);
   });
 });
-
-
-
