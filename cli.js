@@ -2,12 +2,12 @@
 
 'use strict';
 
-var raspGpio = require('./rasp-gpio');
+var raspGpio = require('./lib/rasp-gpio');
 
 var userArgs = process.argv;
-var searchParam = userArgs[2];
+// var searchParam = userArgs[2];
 
-if (userArgs.indexOf('-h') !== -1 || userArgs.indexOf('--help') !== -1 || searchParam === undefined) {
+if (userArgs.indexOf('-h') !== -1 || userArgs.indexOf('--help') !== -1) {
     return console.log('cli help');
 }
 
